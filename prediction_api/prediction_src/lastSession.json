@@ -1,0 +1,31 @@
+{
+    "_id": "5d02146a42a07f096820ff0b",
+    "session": {
+        "intentLabel": "register",
+        "interactions": [
+            {
+                "actionType": "click",
+                "controlId": "display_auth_button",
+                "controlType": "navigation",
+                "dateTime": "2019-06-13T09:14:12.990Z",
+                "intent": {
+                    "completion": null,
+                    "label": null
+                }
+            },
+            {
+                "actionType": "click",
+                "controlId": "register_button",
+                "controlType": "mutation",
+                "dateTime": "2019-06-13T09:16:26.261Z",
+                "intent": {
+                    "completion": true,
+                    "label": "register"
+                }
+            }
+        ],
+        "sessionEndDateTime": "2019-06-13T09:16:26.261Z",
+        "sessionId": "lWmvRRpcGEKXa4CMqAkU",
+        "userId": "5d01e9d3a131be1e908456ea"
+    }
+}
