@@ -5,7 +5,7 @@ const mongodb = {};
 mongodb.client = null;
 
 mongodb.init = (callback) => {
-    const uri = "mongodb+srv://lrober09:agoodpassword@teststore-s46p7.mongodb.net/test?retryWrites=true";
+    const uri = "mongodb+srv://admin:p0Z36dgB7IuV@teststore-4m05r.mongodb.net/test?retryWrites=true&w=majority";
 
     MongoClient.connect(uri, {useNewUrlParser: true}, (err, client) => {
         mongodb.client = client;
